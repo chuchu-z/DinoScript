@@ -43,6 +43,12 @@ Trex.prototype.startJump = function(speed){
 
 5. 起飞！
 
+6.如果觉得还不够满意的话，加上下面这条,会清除所有游戏规则，也就是说即使是撞到了也不会死...
+这是个很明显的缺点。另外还有一个就是切换应用和浏览器窗口好像会暂停
+
+```
+Runner.instance_.gameOver=function(){};
+```
 --------------
 
 ### 以下是原readme：
